@@ -1,12 +1,30 @@
 package com.example.ProjectAllianz.dto;
 
+import com.example.ProjectAllianz.customvalidatot.DateConstraint;
+
+import javax.validation.constraints.NotEmpty;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+
 public class QuoteDto {
 
-//    private int id;
+    private int id;
+//    @NotEmpty(message = "first name must not be empty")
     private String firstName;
+//    @NotEmpty(message = "first name must not be empty")
     private String lastName;
+//    @NotEmpty(message = "first name must not be empty")
     private String gender;
+//    @NotEmpty(message = "first name must not be empty")
+    @DateConstraint
     private String dateOfBirth;
+//    private String dateOfBirth;
+//    @NotEmpty(message = "first name must not be empty")
     private String preferredLanguages;
 
 
@@ -19,13 +37,13 @@ public class QuoteDto {
         this.gender = gender;
     }
 
-//    public int getId() {
-//        return id;
-//    }
-//
-//    public void setId(int id) {
-//        this.id = id;
-//    }
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getFirstName() {
         return firstName;
@@ -44,10 +62,12 @@ public class QuoteDto {
     }
 
     public String getDateOfBirth() {
-        return dateOfBirth;
+
+        return this.dateOfBirth;
     }
 
     public void setDateOfBirth(String dateOfBirth) {
+
         this.dateOfBirth = dateOfBirth;
     }
 
@@ -58,4 +78,7 @@ public class QuoteDto {
     public void setPreferredLanguages(String preferredLanguages) {
         this.preferredLanguages = preferredLanguages;
     }
+
+
+
 }

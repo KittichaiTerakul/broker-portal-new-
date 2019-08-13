@@ -13,7 +13,7 @@ public class Quote {
 //    @GeneratedValue(strategy = GenerationType.AUTO)
 //    @SequenceGenerator(name="id", initialValue=5, allocationSize=100)
 //    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="quoteId")
-    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     @Column(name = "firstName")
