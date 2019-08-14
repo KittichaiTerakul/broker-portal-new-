@@ -7,7 +7,12 @@ import java.util.Date;
 @Table(name="quote")
 public class Quote {
     @Id
-    @Column(name = "id")
+
+    @Column(name= "quoteId")
+//    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @SequenceGenerator(name="id", initialValue=5, allocationSize=100)
+//    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="quoteId")
+//    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     @Column(name = "quoteId")

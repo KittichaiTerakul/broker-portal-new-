@@ -9,7 +9,10 @@ import com.example.ProjectAllianz.service.QuoteService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+
 
 import java.text.ParseException;
 import java.util.List;
@@ -18,7 +21,9 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping(value = "/quote")
 
+
 public class QuoteController {
+
 
     @Autowired
     private QuoteService quoteService;
@@ -39,9 +44,6 @@ public class QuoteController {
     @RequestMapping(method = RequestMethod.GET)
     @ResponseBody
     public List<QuoteDto> getAllCustomer(){
-
-
-
         List<Quote> quotes = quoteService.getAllCustomer();
         return quotes.stream().map(quote -> convertToDto(quote)).collect(Collectors.toList());
     }
@@ -60,7 +62,7 @@ public class QuoteController {
     @RequestMapping(method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.CREATED)
     @ResponseBody
-    public void createCustomer(@RequestBody QuoteDto quoteDto) throws ParseException {
+    public ResponseEntity<QuoteDto> createCustomer(@Valid @RequestBody QuoteDto quoteDto) throws ParseException {
 
 //        if (quoteDto.getFirstName().equals("") || quoteDto.getLastName().equals("") || quoteDto.getGender().equals("") ||
 //            quoteDto.getDateOfBirth().equals("") || quoteDto.getPreferredLanguages().equals("")){
@@ -68,7 +70,7 @@ public class QuoteController {
 //        }
         Quote quote = convertToEntity(quoteDto);
         Quote quoteCreate = quoteService.addCustomer(quote);
-        convertToDto(quote);
+        return new ResponseEntity<QuoteDto>(quoteDto,HttpStatus.OK);
 
 
 //
@@ -85,7 +87,8 @@ public class QuoteController {
 
     @GetMapping(value = "/{id}")
     @ResponseBody
-    public QuoteDto getCustomer(@PathVariable("id") int id){
+    public QuoteDto getCustomer(@Valid @PathVariable("id") int id){
+        Quote quote =  quoteService.getCustomerById(id);
         return convertToDto(quoteService.getCustomerById(id));
 
 
@@ -157,8 +160,7 @@ public class QuoteController {
 
 
 //        if (quoteDto.getId() !=  0){
-            Quote oldQuote = quoteService.getCustomerById(quote.getId());
-
+//            Quote oldQuote = quoteService.getCustomerById(quote.getId());
 //        }
         return quote;
     }

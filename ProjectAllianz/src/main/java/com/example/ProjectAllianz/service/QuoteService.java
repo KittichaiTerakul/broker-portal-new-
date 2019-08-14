@@ -1,6 +1,7 @@
 package com.example.ProjectAllianz.service;
 
-import com.example.ProjectAllianz.entity.Quote;
+import com.example.ProjectAllianz.error.QuoteNotFoundException;
+import com.example.ProjectAllianz.model.Quote;
 import com.example.ProjectAllianz.repository.QuoteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,8 +20,7 @@ public class QuoteService {
     }
 
     public Quote getCustomerById(int id){
-        return quoteRepository.findById(id).orElse(null);
-    }
+        return quoteRepository.findById(id).orElseThrow(() -> new QuoteNotFoundException(id)); }
 
     public Quote addCustomer(Quote quote){
         return quoteRepository.save(quote);

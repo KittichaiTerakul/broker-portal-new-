@@ -1,123 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="601e8634-1ca0-42ac-9572-37a4e5062a6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/controller/QuoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/controller/FundInformationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/controller/FundInformationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/FundCustomerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/FundCustomerDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/FundInformationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/FundInformationDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/QuoteDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/QuoteDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/model/FundCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/entity/FundCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/model/FundInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/entity/FundInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/model/Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/entity/Quote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/repository/FundInformationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/repository/FundInformationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/repository/FundRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/repository/FundRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/repository/QuoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/repository/QuoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/service/FundInformationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/service/FundInformationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/service/FundService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/service/FundService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/service/QuoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/service/QuoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/controller/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/controller/FundInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/controller/FundInformationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/FundCustomerDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/FundCustomerDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/FundInformationDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/FundInformationDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/QuoteDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/QuoteDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/model/FundCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/model/FundInformation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/model/Quote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/repository/FundInformationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/repository/FundInformationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/repository/FundRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/repository/FundRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/repository/QuoteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/repository/QuoteRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/service/FundInformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/service/FundInformationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/service/FundService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/service/FundService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/service/QuoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/service/QuoteService.class" afterDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/target/" />
+    <list default="true" id="804e634e-bbe1-4b34-ac73-7c958b0806e2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-51292112">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="73" />
-          <entry key="properties" value="4" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="73" />
-          <entry key="Properties" value="4" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="15" />
-          <entry key="java" value="2154" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2154" />
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/entity/Quote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/QuoteDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#1179#1180#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -125,132 +19,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/Downloads/Project 2" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/service/FundService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/controller/FundCustomerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/SwaggerConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/controller/CustomerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/repository/QuoteRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/FundCustomerDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/controller/QuoteController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/entity/FundCustomer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/controller/FundInformationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/FundInformationDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/entity/FundInformation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/entity/Quote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/QuoteDto.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="707" />
-    <option name="y" value="23" />
-    <option name="width" value="730" />
-    <option name="height" value="838" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ProjectAllianz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectAllianz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectAllianz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectAllianz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectAllianz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectAllianz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectAllianz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectAllianz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectAllianz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectAllianz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectAllianz" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1PM2SYdb1InogS8NsXjlQOvhsXy" />
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565753924681" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.27011493" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565669497866" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/spring-boot-master/spring-boot-master/spring-rest-validation" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -290,61 +63,40 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="601e8634-1ca0-42ac-9572-37a4e5062a6a" name="Default Changelist" comment="" />
-      <created>1565669480639</created>
+      <changelist id="804e634e-bbe1-4b34-ac73-7c958b0806e2" name="Default Changelist" comment="" />
+      <created>1565669644880</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565669480639</updated>
+      <updated>1565669644880</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24678111" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="DB Browser" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="simpleUML" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.39518073" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.4060241" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="UML design tool window" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.25.2.RELEASE/spring-hateoas-0.25.2.RELEASE.jar!/org/springframework/hateoas/ResourceSupport.class</url>
+          <line>27</line>
+          <properties class="org.springframework.hateoas.ResourceSupport" method="add">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/SwaggerConfiguration.java">

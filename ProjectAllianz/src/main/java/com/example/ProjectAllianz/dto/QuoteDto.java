@@ -1,15 +1,30 @@
 package com.example.ProjectAllianz.dto;
 
+import com.example.ProjectAllianz.customvalidatot.DateConstraint;
+
+import javax.validation.constraints.NotEmpty;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+
 
 public class QuoteDto {
 
     private int id;
-    private String quoteId;
+//    @NotEmpty(message = "first name must not be empty")
     private String firstName;
+//    @NotEmpty(message = "first name must not be empty")
     private String lastName;
+//    @NotEmpty(message = "first name must not be empty")
     private String gender;
-    private Date dateOfBirth;
+    @NotEmpty(message = "date must not be empty")
+    @DateConstraint
+    private String dateOfBirth;
+//    private String dateOfBirth;
+//    @NotEmpty(message = "first name must not be empty")
     private String preferredLanguages;
 
 
@@ -26,12 +41,12 @@ public class QuoteDto {
         this.id = id;
     }
 
-    public String getQuoteId() {
-        return quoteId;
+    public int getId() {
+        return id;
     }
 
-    public void setQuoteId(String quoteId) {
-        this.quoteId = quoteId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -50,19 +65,13 @@ public class QuoteDto {
         this.lastName = lastName;
     }
 
-    public String getGender() {
-        return gender;
+    public String getDateOfBirth() {
+
+        return this.dateOfBirth;
     }
 
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
+    public void setDateOfBirth(String dateOfBirth) {
 
-    public Date getDateOfBirth() {
-        return dateOfBirth;
-    }
-
-    public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 
@@ -73,4 +82,7 @@ public class QuoteDto {
     public void setPreferredLanguages(String preferredLanguages) {
         this.preferredLanguages = preferredLanguages;
     }
+
+
+
 }
