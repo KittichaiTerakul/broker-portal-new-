@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="804e634e-bbe1-4b34-ac73-7c958b0806e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_hateoas_2_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_25_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/error/QuoteNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/exception/CustomGlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectAllianz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAllianz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/QuoteDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/dto/QuoteDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/model/Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/model/Quote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/service/QuoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/service/QuoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/ProjectAllianzApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/ProjectAllianzApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/controller/FundInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/controller/FundInformationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/FundCustomerDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/FundCustomerDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/FundInformationDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/FundInformationDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/QuoteDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/dto/QuoteDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/model/FundCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/model/FundCustomer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/model/FundInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/model/FundInformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/model/Quote.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/model/Quote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/service/FundService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/service/FundService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/service/QuoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/service/QuoteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/customvalidatot/DateValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/customvalidatot/DateValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/customvalidatot/DateValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ProjectAllianz/customvalidatot/DateValidator.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,11 +98,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/ProjectAllianz/customvalidatot/DateValidator.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -20,7 +20,7 @@ public class QuoteDto {
     private String lastName;
 //    @NotEmpty(message = "first name must not be empty")
     private String gender;
-//    @NotEmpty(message = "first name must not be empty")
+    @NotEmpty(message = "date must not be empty")
     @DateConstraint
     private String dateOfBirth;
 //    private String dateOfBirth;
