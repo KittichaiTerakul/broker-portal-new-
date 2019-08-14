@@ -1,31 +1,38 @@
 package com.example.ProjectAllianz.dto;
 
+import java.util.Date;
+
 public class QuoteDto {
 
-//    private int id;
+    private int id;
+    private String quoteId;
     private String firstName;
     private String lastName;
     private String gender;
-    private String dateOfBirth;
+    private Date dateOfBirth;
     private String preferredLanguages;
 
 
+    private FundCustomerDto fundCustomerDto;
 
-    public String getGender() {
-        return gender;
+
+
+
+    public int getId() {
+        return id;
     }
 
-    public void setGender(String gender) {
-        this.gender = gender;
+    public void setId(int id) {
+        this.id = id;
     }
 
-//    public int getId() {
-//        return id;
-//    }
-//
-//    public void setId(int id) {
-//        this.id = id;
-//    }
+    public String getQuoteId() {
+        return quoteId;
+    }
+
+    public void setQuoteId(String quoteId) {
+        this.quoteId = quoteId;
+    }
 
     public String getFirstName() {
         return firstName;
@@ -43,11 +50,19 @@ public class QuoteDto {
         this.lastName = lastName;
     }
 
-    public String getDateOfBirth() {
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public Date getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(String dateOfBirth) {
+    public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 

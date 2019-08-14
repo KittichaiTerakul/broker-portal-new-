@@ -2,14 +2,13 @@ package com.example.ProjectAllianz.controller;
 
 
 import com.example.ProjectAllianz.dto.FundInformationDto;
-import com.example.ProjectAllianz.model.FundInformation;
+import com.example.ProjectAllianz.entity.FundInformation;
 import com.example.ProjectAllianz.service.FundInformationService;
 import io.swagger.annotations.ApiOperation;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.nio.file.Path;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -28,8 +27,6 @@ public class FundInformationController {
      *
      */
 
-
-    @ApiOperation(value = "Information ", notes = "Information  test")
 
     @RequestMapping(method = RequestMethod.GET)
     @ResponseBody

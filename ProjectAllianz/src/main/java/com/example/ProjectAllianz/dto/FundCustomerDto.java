@@ -1,18 +1,29 @@
 package com.example.ProjectAllianz.dto;
 
+import com.example.ProjectAllianz.entity.Quote;
+
 public class FundCustomerDto {
 
-    private int quoteQuoteId;
+    private int fundcustomerId;
+    private QuoteDto quoteDto;
     private int fundId;
-    private int percent;
+    private int percentage;
 
 
-    public int getQuoteQuoteId() {
-        return quoteQuoteId;
+    public int getFundcustomerId() {
+        return fundcustomerId;
     }
 
-    public void setQuoteQuoteId(int quoteQuoteId) {
-        this.quoteQuoteId = quoteQuoteId;
+    public void setFundcustomerId(int fundcustomerId) {
+        this.fundcustomerId = fundcustomerId;
+    }
+
+    public QuoteDto getQuoteDto() {
+        return quoteDto;
+    }
+
+    public void setQuoteDto(QuoteDto quoteDto) {
+        this.quoteDto = quoteDto;
     }
 
     public int getFundId() {
@@ -23,11 +34,11 @@ public class FundCustomerDto {
         this.fundId = fundId;
     }
 
-    public int getPercent() {
-        return percent;
+    public int getPercentage() {
+        return percentage;
     }
 
-    public void setPercent(int percent) {
-        this.percent = percent;
+    public void setPercentage(int percentage) {
+        this.percentage = percentage;
     }
 }

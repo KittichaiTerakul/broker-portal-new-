@@ -1,6 +1,6 @@
 package com.example.ProjectAllianz.service;
 
-import com.example.ProjectAllianz.model.FundInformation;
+import com.example.ProjectAllianz.entity.FundInformation;
 import com.example.ProjectAllianz.repository.FundInformationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

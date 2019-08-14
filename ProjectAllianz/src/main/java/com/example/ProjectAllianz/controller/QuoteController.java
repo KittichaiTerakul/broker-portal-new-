@@ -1,15 +1,16 @@
 package com.example.ProjectAllianz.controller;
 
+import com.example.ProjectAllianz.dto.FundCustomerDto;
 import com.example.ProjectAllianz.dto.QuoteDto;
-import com.example.ProjectAllianz.model.Quote;
+import com.example.ProjectAllianz.entity.FundCustomer;
+import com.example.ProjectAllianz.entity.Quote;
+import com.example.ProjectAllianz.service.FundService;
 import com.example.ProjectAllianz.service.QuoteService;
-import io.swagger.annotations.ApiOperation;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import javax.xml.ws.Response;
 import java.text.ParseException;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -17,10 +18,12 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping(value = "/quote")
 
-public class CustomerController {
+public class QuoteController {
 
     @Autowired
     private QuoteService quoteService;
+    @Autowired
+    private FundService fundService;
 
 
     private ModelMapper modelMapper = new ModelMapper();
@@ -33,7 +36,6 @@ public class CustomerController {
      */
 
 
-    @ApiOperation(value = "Information Quote", notes = "Information Quote test")
     @RequestMapping(method = RequestMethod.GET)
     @ResponseBody
     public List<QuoteDto> getAllCustomer(){
@@ -53,12 +55,8 @@ public class CustomerController {
      */
 
 
-    /**
-     *
-     * ยังใช้ method นี้ไม่ได้
-     */
 
-//    @ApiOperation(value = "Create Quote", notes = "Create Quote Test")
+
     @RequestMapping(method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.CREATED)
     @ResponseBody
@@ -72,6 +70,7 @@ public class CustomerController {
         Quote quoteCreate = quoteService.addCustomer(quote);
         convertToDto(quote);
 
+
 //
 //        else {
 //
@@ -79,31 +78,69 @@ public class CustomerController {
     }
     //
 //
-//    @ApiOperation(value = "Get Quote by id", notes = "Get Quote by id test")
+
+
+
+
 
     @GetMapping(value = "/{id}")
     @ResponseBody
     public QuoteDto getCustomer(@PathVariable("id") int id){
         return convertToDto(quoteService.getCustomerById(id));
+
+
     }
 //
-//    @ApiOperation(value = "Put Quote", notes = "Put Quote test")
 //
     @PutMapping(value = "/{id}" )
     @ResponseStatus(HttpStatus.OK)
     public void updateCustomer(@RequestBody QuoteDto quoteDto) throws ParseException{
         Quote quote = convertToEntity(quoteDto);
 
+
     }
 
 
+//    @GetMapping(value = "/fund")
+//    @ResponseBody
+//    public FundCustomerDto getCustomerById(@PathVariable("id") int id){
+//        return convertToFundDto(fundService.getAllFundCustomer());
+//
+//
+//    }
 
 
+//    @RequestMapping(method = RequestMethod.GET)
+//    @ResponseBody
+//    public List<FundCustomerDto> getAllFund(){
+//
+//
+//
+//        List<FundCustomer> fundCustomers = fundService.getAllFundCustomer();
+//        return fundCustomers.stream().map(fundCustomer -> convertToFundDto(fundCustomer)).collect(Collectors.toList());
+//    }
+//
 
-    /**
-     * convert to Dto and convert to entity
-     *
-     */
+//
+//    /**
+//     * getFundCustomer
+//     */
+//
+//
+//
+//    /**
+//     * convert to Dto and convert to entity
+//     *
+//     */
+//
+    private FundCustomerDto convertToFundDto(FundCustomer fundCustomer){
+        FundCustomerDto fundCustomerDto = modelMapper.map(fundCustomer, FundCustomerDto.class);
+        System.out.println(fundCustomerDto);
+        return fundCustomerDto;
+
+    }
+
+
 
     private QuoteDto convertToDto(Quote quote){
         QuoteDto quoteDto = modelMapper.map(quote, QuoteDto.class);
@@ -113,10 +150,7 @@ public class CustomerController {
     }
 
 
-    /**
-     * ยังใช้งานไม่ได้
-     *
-     */
+
 
     private Quote convertToEntity(QuoteDto quoteDto) throws ParseException {
         Quote quote = modelMapper.map(quoteDto , Quote.class);
@@ -132,49 +166,6 @@ public class CustomerController {
 
 
 
-//    @Autowired
-//    private QuoteRepository customerRepository;
-//
-//    @ApiOperation(value = "Information Quote", notes = "Information Quote test")
-//    @GetMapping(value = "/all")
-//    public List<Quote> customers()
-//    {
-//        return customerRepository.findAll();
-//    }
-//
-////    @GetMapping(value = "/all")
-////    public List<Quote> getAll(){
-////        return customerRepository.findAll();
-////    }
-////
-//    @PostMapping(value = "/create"  )
-//
-//    public List<Quote> createCustomer (@RequestBody Quote customer){
-//        customerRepository.save(customer);
-//        return customerRepository.findAll();
-//    }
-//
-//
-//    /**
-//     *
-//     */
-//
-//
-//
-//    @Autowired
-//    private FundRepository fundRepository;
-//
-//    @GetMapping(value="/fund/all")
-//    public List<FundCustomer> getAll(){
-//        return fundRepository.findAll();
-//
-//    }
-//
-//    @PostMapping(value = "/funds/create")
-//    public List<FundCustomer> createFund (@RequestBody FundCustomer funds){
-//        fundRepository.save(funds);
-//        return fundRepository.findAll();
-//
-//    }
+
 
 }

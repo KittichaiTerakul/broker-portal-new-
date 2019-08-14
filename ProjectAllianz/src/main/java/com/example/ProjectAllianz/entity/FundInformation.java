@@ -1,4 +1,6 @@
-package com.example.ProjectAllianz.model;
+package com.example.ProjectAllianz.entity;
+
+import io.swagger.models.auth.In;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -6,33 +8,23 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "fund")
+@Table(name = "fundinformation")
 public class FundInformation {
 
     @Id
-    @Column(name = "fundId")
-    private int fundId;
+
 
     @Column(name = "fundName")
     private String fundName;
 
-    @Column(name = "fundDetails")
-    private String fundDetails;
 
     @Column(name = "riskIndicator")
     private int riskIndicator;
 
     @Column(name = "rating")
-    private int rating;
+    private Integer rating;
 
 
-    public int getFundId() {
-        return fundId;
-    }
-
-    public void setFundId(int fundId) {
-        this.fundId = fundId;
-    }
 
     public String getFundName() {
         return fundName;
@@ -42,13 +34,7 @@ public class FundInformation {
         this.fundName = fundName;
     }
 
-    public String getFundDetails() {
-        return fundDetails;
-    }
 
-    public void setFundDetails(String fundDetails) {
-        this.fundDetails = fundDetails;
-    }
 
     public int getRiskIndicator() {
         return riskIndicator;
@@ -58,7 +44,7 @@ public class FundInformation {
         this.riskIndicator = riskIndicator;
     }
 
-    public int getRating() {
+    public Integer getRating() {
         return rating;
     }
 
